@@ -51,7 +51,7 @@ function SearchResults(props) {
   const [games, setGames] = useState([])
 
   useEffect(async () => {
-
+ 
     try {
       // const response = await fetch("https://www.balldontlie.io/api/v1/games?start_date='2021-04-17'&end_date='2021-05-17'");
       // const response = await fetch("https://jsonplaceholder.typicode.com/posts");
