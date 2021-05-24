@@ -1,0 +1,1152 @@
+{
+    "api": {
+        "status": 200,
+        "message": "GET players/teamId/1",
+        "results": 50,
+        "filters": [
+            "playerId",
+            "teamId",
+            "league",
+            "country",
+            "lastName",
+            "firstName"
+        ],
+        "players": [
+            {
+                "firstName": "Clint",
+                "lastName": "Capela",
+                "teamId": "1",
+                "yearsPro": "6",
+                "collegeName": "Elan Chalon",
+                "country": "Switzerland",
+                "playerId": "92",
+                "dateOfBirth": "1994-05-18",
+                "affiliation": "Elan Chalon/Switzerland",
+                "startNba": "2014",
+                "heightInMeters": "2.08",
+                "weightInKilograms": "108.9",
+                "leagues": {
+                    "standard": {
+                        "jersey": "15",
+                        "active": "1",
+                        "pos": "C"
+                    }
+                }
+            },
+            {
+                "firstName": "Vince",
+                "lastName": "Carter",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "94",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "standard": {
+                        "jersey": "15",
+                        "active": "1",
+                        "pos": "G-F"
+                    }
+                }
+            },
+            {
+                "firstName": "Malcolm",
+                "lastName": "Delaney",
+                "teamId": "1",
+                "yearsPro": "2",
+                "collegeName": "Virginia Tech",
+                "country": "USA",
+                "playerId": "133",
+                "dateOfBirth": "1989-03-11",
+                "affiliation": "Virginia Tech/USA",
+                "startNba": "2016",
+                "heightInMeters": "1.9",
+                "weightInKilograms": "86.2",
+                "leagues": {
+                    "standard": {
+                        "jersey": "5",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Kris",
+                "lastName": "Dunn",
+                "teamId": "1",
+                "yearsPro": "4",
+                "collegeName": "Providence",
+                "country": "USA",
+                "playerId": "152",
+                "dateOfBirth": "1994-03-18",
+                "affiliation": "Providence/USA",
+                "startNba": "2016",
+                "heightInMeters": "1.9",
+                "weightInKilograms": "93.0",
+                "leagues": {
+                    "standard": {
+                        "jersey": "32",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Jeremy",
+                "lastName": "Evans",
+                "teamId": "1",
+                "yearsPro": "7",
+                "collegeName": "Western Kentucky",
+                "country": "USA",
+                "playerId": "162",
+                "dateOfBirth": "1987-10-24",
+                "affiliation": "Western Kentucky/USA",
+                "startNba": "2010",
+                "heightInMeters": "2.06",
+                "weightInKilograms": "90.7",
+                "leagues": {
+                    "standard": {
+                        "jersey": "6",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Danilo",
+                "lastName": "Gallinari",
+                "teamId": "1",
+                "yearsPro": "11",
+                "collegeName": "Olimpia Milano",
+                "country": "Italy",
+                "playerId": "181",
+                "dateOfBirth": "1988-08-08",
+                "affiliation": "Olimpia Milano/Italy",
+                "startNba": "2008",
+                "heightInMeters": "2.08",
+                "weightInKilograms": "105.7",
+                "leagues": {
+                    "standard": {
+                        "jersey": "8",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Solomon",
+                "lastName": "Hill",
+                "teamId": "1",
+                "yearsPro": "7",
+                "collegeName": "Arizona",
+                "country": "USA",
+                "playerId": "239",
+                "dateOfBirth": "1991-03-18",
+                "affiliation": "Arizona/USA",
+                "startNba": "2013",
+                "heightInMeters": "1.98",
+                "weightInKilograms": "102.5",
+                "leagues": {
+                    "standard": {
+                        "jersey": "18",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Kirk",
+                "lastName": "Hinrich",
+                "teamId": "1",
+                "yearsPro": "12",
+                "collegeName": "Kansas",
+                "country": "USA",
+                "playerId": "241",
+                "dateOfBirth": "1981-01-02",
+                "affiliation": "",
+                "startNba": "2003",
+                "heightInMeters": "1.93",
+                "weightInKilograms": "86.2",
+                "leagues": {
+                    "standard": {
+                        "jersey": "12",
+                        "active": "",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Lamar",
+                "lastName": "Patterson",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "Pittsburgh",
+                "country": " ",
+                "playerId": "413",
+                "dateOfBirth": "1991-08-12",
+                "affiliation": "",
+                "startNba": "2015",
+                "heightInMeters": "1.96",
+                "weightInKilograms": "102.1",
+                "leagues": {
+                    "standard": {
+                        "jersey": "13",
+                        "active": "",
+                        "pos": "G-F"
+                    }
+                }
+            },
+            {
+                "firstName": "Tony",
+                "lastName": "Snell",
+                "teamId": "1",
+                "yearsPro": "7",
+                "collegeName": "New Mexico",
+                "country": "USA",
+                "playerId": "492",
+                "dateOfBirth": "1991-11-10",
+                "affiliation": "New Mexico/USA",
+                "startNba": "2013",
+                "heightInMeters": "1.98",
+                "weightInKilograms": "96.6",
+                "leagues": {
+                    "standard": {
+                        "jersey": "19",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Lou",
+                "lastName": "Williams",
+                "teamId": "1",
+                "yearsPro": "15",
+                "collegeName": "South Gwinnett HS (GA)",
+                "country": "USA",
+                "playerId": "553",
+                "dateOfBirth": "1986-10-27",
+                "affiliation": "South Gwinnett HS (GA)/USA",
+                "startNba": "2005",
+                "heightInMeters": "1.85",
+                "weightInKilograms": "79.4",
+                "leagues": {
+                    "standard": {
+                        "jersey": "6",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Alex",
+                "lastName": "Poythress",
+                "teamId": "1",
+                "yearsPro": "3",
+                "collegeName": "Kentucky",
+                "country": "USA",
+                "playerId": "600",
+                "dateOfBirth": "1993-09-06",
+                "affiliation": "Kentucky/USA",
+                "startNba": "2016",
+                "heightInMeters": "2.06",
+                "weightInKilograms": "106.6",
+                "leagues": {
+                    "standard": {
+                        "jersey": "22",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Bogdan",
+                "lastName": "Bogdanovic",
+                "teamId": "1",
+                "yearsPro": "3",
+                "collegeName": "Fenerbahce",
+                "country": "Serbia",
+                "playerId": "743",
+                "dateOfBirth": "1992-08-18",
+                "affiliation": "Fenerbahce/Serbia",
+                "startNba": "2017",
+                "heightInMeters": "1.98",
+                "weightInKilograms": "99.8",
+                "leagues": {
+                    "standard": {
+                        "jersey": "13",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "John",
+                "lastName": "Collins",
+                "teamId": "1",
+                "yearsPro": "3",
+                "collegeName": "Wake Forest",
+                "country": "USA",
+                "playerId": "761",
+                "dateOfBirth": "1997-09-23",
+                "affiliation": "Wake Forest/USA",
+                "startNba": "2017",
+                "heightInMeters": "2.06",
+                "weightInKilograms": "106.6",
+                "leagues": {
+                    "standard": {
+                        "jersey": "20",
+                        "active": "1",
+                        "pos": "F-C"
+                    },
+                    "vegas": {
+                        "jersey": "20",
+                        "active": "1",
+                        "pos": "F-C"
+                    },
+                    "utah": {
+                        "jersey": "20",
+                        "active": "1",
+                        "pos": "F-C"
+                    }
+                }
+            },
+            {
+                "firstName": "Marcus",
+                "lastName": "Derrickson",
+                "teamId": "1",
+                "yearsPro": "1",
+                "collegeName": "Georgetown",
+                "country": "USA",
+                "playerId": "959",
+                "dateOfBirth": "1996-02-01",
+                "affiliation": "Georgetown University/USA",
+                "startNba": "2018",
+                "heightInMeters": "2.01",
+                "weightInKilograms": "113.4",
+                "leagues": {
+                    "standard": {
+                        "jersey": "32",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Kevin",
+                "lastName": "Huerter",
+                "teamId": "1",
+                "yearsPro": "2",
+                "collegeName": "Maryland",
+                "country": "USA",
+                "playerId": "980",
+                "dateOfBirth": "1998-08-27",
+                "affiliation": "Maryland/USA",
+                "startNba": "2018",
+                "heightInMeters": "2.01",
+                "weightInKilograms": "86.2",
+                "leagues": {
+                    "standard": {
+                        "jersey": "3",
+                        "active": "1",
+                        "pos": "G-F"
+                    },
+                    "vegas": {
+                        "jersey": "1",
+                        "active": "1",
+                        "pos": "G"
+                    },
+                    "utah": {
+                        "jersey": "1",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Trae",
+                "lastName": "Young",
+                "teamId": "1",
+                "yearsPro": "2",
+                "collegeName": "Oklahoma",
+                "country": "USA",
+                "playerId": "1046",
+                "dateOfBirth": "1998-09-19",
+                "affiliation": "Oklahoma/USA",
+                "startNba": "2018",
+                "heightInMeters": "1.85",
+                "weightInKilograms": "81.6",
+                "leagues": {
+                    "standard": {
+                        "jersey": "11",
+                        "active": "1",
+                        "pos": "G"
+                    },
+                    "vegas": {
+                        "jersey": "11",
+                        "active": "1",
+                        "pos": "G"
+                    },
+                    "utah": {
+                        "jersey": "11",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Brandon",
+                "lastName": "Goodwin",
+                "teamId": "1",
+                "yearsPro": "2",
+                "collegeName": "Florida Gulf Coast",
+                "country": "USA",
+                "playerId": "1063",
+                "dateOfBirth": "1995-10-02",
+                "affiliation": "Florida Gulf Coast/USA",
+                "startNba": "2018",
+                "heightInMeters": "1.83",
+                "weightInKilograms": "81.6",
+                "leagues": {
+                    "standard": {
+                        "jersey": "0",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Jaylen",
+                "lastName": "Adams",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1243",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "10",
+                        "active": "1",
+                        "pos": "G"
+                    },
+                    "utah": {
+                        "jersey": "10",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Tyler",
+                "lastName": "Dorsey",
+                "teamId": "1",
+                "yearsPro": "1",
+                "collegeName": "Oregon",
+                "country": "USA",
+                "playerId": "1362",
+                "dateOfBirth": "1996-02-18",
+                "affiliation": "Oregon/USA",
+                "startNba": "2017",
+                "heightInMeters": "1.96",
+                "weightInKilograms": "83.0",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "2",
+                        "active": "1",
+                        "pos": "G"
+                    },
+                    "utah": {
+                        "jersey": "2",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Robert",
+                "lastName": "Johnson",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1463",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "4",
+                        "active": "1",
+                        "pos": "G"
+                    },
+                    "utah": {
+                        "jersey": "4",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Alpha",
+                "lastName": "Kaba",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "France",
+                "playerId": "1471",
+                "dateOfBirth": "1996-01-29",
+                "affiliation": " /France",
+                "startNba": "0",
+                "heightInMeters": "2.08",
+                "weightInKilograms": "109.8",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "42",
+                        "active": "1",
+                        "pos": "F"
+                    },
+                    "utah": {
+                        "jersey": "42",
+                        "active": "1",
+                        "pos": "F"
+                    },
+                    "standard": {
+                        "jersey": "",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Zach",
+                "lastName": "LeDay",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1490",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "32",
+                        "active": "1",
+                        "pos": "F"
+                    },
+                    "utah": {
+                        "jersey": "32",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Junior",
+                "lastName": "Robinson",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1602",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "7",
+                        "active": "1",
+                        "pos": "G"
+                    },
+                    "utah": {
+                        "jersey": "7",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Zach",
+                "lastName": "Smith",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1623",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "41",
+                        "active": "1",
+                        "pos": "F"
+                    },
+                    "utah": {
+                        "jersey": "41",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Omari",
+                "lastName": "Spellman",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1627",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "6",
+                        "active": "1",
+                        "pos": "F"
+                    },
+                    "utah": {
+                        "jersey": "6",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Thomas",
+                "lastName": "Wimbush",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1687",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "33",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Antonius",
+                "lastName": "Cleveland",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1712",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "utah": {
+                        "jersey": "0",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Jock",
+                "lastName": "Landale",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1732",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "utah": {
+                        "jersey": "34",
+                        "active": "1",
+                        "pos": "C"
+                    }
+                }
+            },
+            {
+                "firstName": "Jaylen",
+                "lastName": "Morris",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1747",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "utah": {
+                        "jersey": "3",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Brandon",
+                "lastName": "Sampson",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "1755",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "utah": {
+                        "jersey": "30",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Bruno",
+                "lastName": "Fernando",
+                "teamId": "1",
+                "yearsPro": "1",
+                "collegeName": "Maryland",
+                "country": "Angola",
+                "playerId": "1858",
+                "dateOfBirth": "1998-08-15",
+                "affiliation": "Maryland/Angola",
+                "startNba": "2019",
+                "heightInMeters": "2.06",
+                "weightInKilograms": "108.9",
+                "leagues": {
+                    "standard": {
+                        "jersey": "24",
+                        "active": "1",
+                        "pos": "F-C"
+                    },
+                    "vegas": {
+                        "jersey": "24",
+                        "active": "1",
+                        "pos": "F-C"
+                    }
+                }
+            },
+            {
+                "firstName": "De'Andre",
+                "lastName": "Hunter",
+                "teamId": "1",
+                "yearsPro": "1",
+                "collegeName": "Virginia",
+                "country": "USA",
+                "playerId": "1868",
+                "dateOfBirth": "1997-12-02",
+                "affiliation": "Virginia/USA",
+                "startNba": "2019",
+                "heightInMeters": "2.03",
+                "weightInKilograms": "102.1",
+                "leagues": {
+                    "standard": {
+                        "jersey": "12",
+                        "active": "1",
+                        "pos": "F-G"
+                    },
+                    "vegas": {
+                        "jersey": "12",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Cam",
+                "lastName": "Reddish",
+                "teamId": "1",
+                "yearsPro": "1",
+                "collegeName": "Duke",
+                "country": "USA",
+                "playerId": "1889",
+                "dateOfBirth": "1999-09-01",
+                "affiliation": "Duke/USA",
+                "startNba": "2019",
+                "heightInMeters": "2.03",
+                "weightInKilograms": "98.9",
+                "leagues": {
+                    "standard": {
+                        "jersey": "22",
+                        "active": "1",
+                        "pos": "F-G"
+                    }
+                }
+            },
+            {
+                "firstName": "Jaylen",
+                "lastName": "Adams",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2101",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "10",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Charles",
+                "lastName": "Brown Jr.",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2111",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "4",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Tahjere",
+                "lastName": "McCall",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2138",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "8",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Amine",
+                "lastName": "Noua",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2143",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "7",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Jordan",
+                "lastName": "Sibert",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2149",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "2",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Nick",
+                "lastName": "Ward",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2153",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "45",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Landen",
+                "lastName": "Lucas",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2336",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "0",
+                        "active": "1",
+                        "pos": "C"
+                    }
+                }
+            },
+            {
+                "firstName": "Matt",
+                "lastName": "Mooney",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2337",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "13",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Reid",
+                "lastName": "Travis",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2338",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "32",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            },
+            {
+                "firstName": "Sedrick",
+                "lastName": "Barefield",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2374",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "vegas": {
+                        "jersey": "63",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Nathan",
+                "lastName": "Knight",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "William & Mary",
+                "country": "USA",
+                "playerId": "2607",
+                "dateOfBirth": "1997-09-20",
+                "affiliation": "William & Mary/USA",
+                "startNba": "2020",
+                "heightInMeters": "2.08",
+                "weightInKilograms": "114.8",
+                "leagues": {
+                    "standard": {
+                        "jersey": "1",
+                        "active": "1",
+                        "pos": "F-C"
+                    }
+                }
+            },
+            {
+                "firstName": "Skylar",
+                "lastName": "Mays",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "Louisiana State",
+                "country": "USA",
+                "playerId": "2620",
+                "dateOfBirth": "1997-09-05",
+                "affiliation": "Louisiana State/USA",
+                "startNba": "2020",
+                "heightInMeters": "1.93",
+                "weightInKilograms": "93.0",
+                "leagues": {
+                    "standard": {
+                        "jersey": "4",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Onyeka",
+                "lastName": "Okongwu",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "Southern California",
+                "country": "USA",
+                "playerId": "2629",
+                "dateOfBirth": "2000-12-11",
+                "affiliation": "Southern California/USA",
+                "startNba": "2020",
+                "heightInMeters": "2.03",
+                "weightInKilograms": "106.6",
+                "leagues": {
+                    "standard": {
+                        "jersey": "17",
+                        "active": "1",
+                        "pos": "F-C"
+                    }
+                }
+            },
+            {
+                "firstName": "Augusto",
+                "lastName": "Binelli",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2693",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "standard": {
+                        "jersey": "",
+                        "active": "1",
+                        "pos": "C"
+                    }
+                }
+            },
+            {
+                "firstName": "Alain",
+                "lastName": "Digbeau",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2700",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "standard": {
+                        "jersey": "",
+                        "active": "1",
+                        "pos": "G"
+                    }
+                }
+            },
+            {
+                "firstName": "Marcus",
+                "lastName": "Eriksson",
+                "teamId": "1",
+                "yearsPro": "0",
+                "collegeName": "",
+                "country": "",
+                "playerId": "2708",
+                "dateOfBirth": "",
+                "affiliation": "",
+                "startNba": "0",
+                "heightInMeters": "",
+                "weightInKilograms": "",
+                "leagues": {
+                    "standard": {
+                        "jersey": "",
+                        "active": "1",
+                        "pos": "F"
+                    }
+                }
+            }
+        ]
+    }
+}

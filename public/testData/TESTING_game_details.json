@@ -1,0 +1,55 @@
+{
+    "api": {
+        "status": 200,
+        "message": "GET games/gameId/8133",
+        "results": 1,
+        "filters": [
+            "seasonYear",
+            "league",
+            "gameId",
+            "teamId",
+            "date",
+            "live"
+        ],
+        "games": [
+            {
+                "seasonYear": "2020",
+                "league": "standard",
+                "gameId": "8133",
+                "startTimeUTC": "2020-12-12T00:00:00.000Z",
+                "endTimeUTC": "2020-12-12T02:29:00.000Z",
+                "arena": "State Farm Arena",
+                "city": "Atlanta",
+                "country": "USA",
+                "clock": "",
+                "gameDuration": "2:19",
+                "currentPeriod": "4/4",
+                "halftime": "0",
+                "EndOfPeriod": "0",
+                "seasonStage": "1",
+                "statusShortGame": "3",
+                "statusGame": "Finished",
+                "vTeam": {
+                    "teamId": "26",
+                    "shortName": "ORL",
+                    "fullName": "Orlando Magic",
+                    "nickName": "Magic",
+                    "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bd/Orlando_Magic_logo_2010.png",
+                    "score": {
+                        "points": "116"
+                    }
+                },
+                "hTeam": {
+                    "teamId": "1",
+                    "shortName": "ATL",
+                    "fullName": "Atlanta Hawks",
+                    "nickName": "Hawks",
+                    "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png",
+                    "score": {
+                        "points": "112"
+                    }
+                }
+            }
+        ]
+    }
+}

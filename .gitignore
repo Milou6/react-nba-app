@@ -25,3 +25,4 @@ yarn-error.log*
 # mine
 /src/snippets.js
 /src/backup_index.js
+/not_needed

@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
 }
 
 code {
@@ -12,17 +16,241 @@ code {
     monospace;
 }
 
-.single_match {
+/* ========================================================================== */
+/* GENERAL */
+/* ========================================================================== */
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  color: rgb(52, 89, 211);
+}
+.btn:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.floatL {
+  float: left;
+}
+.floatR {
+  float: right;
+}
+
+.card {
   display: flex;
-  flex-direction: row;
-  padding: 20px;
+  flex-direction: column;
+  text-align: center;
+
+  width: 50vw;
+  min-width: 600px;
+
+  padding: 5px 20px;
   margin: 50px;
 
   border: solid 2px black;
+  border-radius: 25px;
+
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2),
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1);
+}
+
+.horizontal_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.separator {
+  border: solid 1px rgb(190, 190, 190);
+  min-height: 200px;
+  align-self: center;
+}
+
+/* ========================================================================== */
+/* HEADER */
+/* ========================================================================== */
+.page_header {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  background-color: black;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.page_header h1 {
+  color: white;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 50px;
+}
+
+.nba_logo {
+  height: 100px;
+}
+
+/* ========================================================================== */
+/* PAGINATION OF MATCH RESULTS */
+/* ========================================================================== */
+.pagination {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70px;
+}
+.page_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+  min-height: 40px;
+
+  border: 1px solid black;
+  border-radius: 20px;
+
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2),
+    inset 0 -0.6em 0.6em rgba(0, 0, 0, 0.1);
+  list-style: none;
+}
+
+.page_item:hover {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  color: rgb(52, 89, 211);
+  font-weight: bold;
+}
+/* ========================================================================== */
+/* SINGLE MATCH */
+/* ========================================================================== */
+.matches_board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single_match {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  width: 50vw;
+  min-width: 450px;
+  max-width: 520px;
+
+  padding: 5px 20px 20px 20px;
+  margin: 50px;
+
+  border: solid 2px black;
+  border-radius: 25px;
+
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2),
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1);
+}
+
+.match_date {
+  border-bottom: solid 1px black;
+  width: 100%;
+  text-align: center;
+
+  padding: 0 0 5px 0;
+  margin: 0;
+}
+
+.match_score {
+  align-self: center;
+  padding: 0 5px;
 }
 
 .home_team,
 .visitor_team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 20px;
-  /* border: solid; */
+  width: 140px;
+  color: rgb(52, 89, 211);
+}
+
+.home_team a svg:hover,
+.visitor_team a svg:hover {
+  width: 150px;
+  height: 150px;
+}
+
+/* ========================================================================== */
+/* SINGLE MATCH DETAILS */
+/* ========================================================================== */
+.game_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.details_home,
+.details_visitor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0px 40px;
+  width: 200px;
+}
+
+/* ========================================================================== */
+/* TEAM DETAILS */
+/* ========================================================================== */
+.team_details h1 {
+  margin: 0;
+}
+
+.team_details h2 {
+  width: 100%;
+  text-align: left;
+}
+
+.standing {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.tableFixed::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome*/
+}
+.tableFixed {
+  overflow: scroll;
+  height: 200px;
+  border-collapse: collapse;
+  width: 100%;
+
+  border: 1px solid black;
+  border-radius: 25px;
+
+  -ms-overflow-style: none; /* Hide scrollbar in FF and Edge*/
+  scrollbar-width: none;
+}
+
+table thead th {
+  background-color: rgb(241, 241, 241);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  text-align: center;
 }

@@ -1,101 +1,80 @@
-/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
-import games from "./games.json";
-import PropTypes from 'prop-types';
-import MatchesBoard from './MatchesBoard.js'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
+import Header from './components/Header.js'
+import Pagination from './components/Pagination';
+import MatchesBoard from './components/MatchesBoard.js'
+import TeamDetails from './components/TeamDetails.js'
 import './index.css';
 
-// import React, { useState, useEffect } from 'react';
-// import ReactDOM from 'react-dom';
-// // import App from './App';
-// // import reportWebVitals from './reportWebVitals';
 
-// // import * as NBAIcons from 'react-nba-logos';
-// // import * as path from 'path';
-// // import games from "./games.json";
+function App() {
 
-// // ReactDOM.render(
-// //   <div>
-// //     <NBAIcons.TOR />
-// //     <NBAIcons.NYK size={140} />
-// //   </div>,
-// //   document.getElementById('root')
-// // );
-
-
-
-// /* What we want to display in match div :
-// *  game.date
-// *  game.home_team.full_name
-// *  game.home_team_score
-
-// *  game.visitor_team.full_name
-// *  game.visitor_team_score
-// */
-
-
-// // ReactDOM.render(
-// //   <React.StrictMode>
-// //     <App />
-// //   </React.StrictMode>,
-// //   document.getElementById('root')
-// // );
-
-// // If you want to start measuring performance in your app, pass a function
-// // to log results (for example: reportWebVitals(console.log))
-// // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// // reportWebVitals();
-
-function SearchResults(props) {
   const [games, setGames] = useState([])
+  const [loading, setLoading] = useState(false);
+  // both States below used for Pagination
+  const [currentPage, setCurrentPage] = useState(1);
+  const [gamesPerPage] = useState(10);
 
   useEffect(async () => {
- 
     try {
-      // const response = await fetch("https://www.balldontlie.io/api/v1/games?start_date='2021-04-17'&end_date='2021-05-17'");
-      // const response = await fetch("https://jsonplaceholder.typicode.com/posts");
-      // const response = await fetch("C:/Users/haas_/Downloads/NBA/nba_react/src/games.json");
-      const response = await fetch("./games.json");
-      console.log(response);
+      const response = await fetch("./testData/TESTING_NBA_games2.json");
+      setLoading(true);      
+
       const jsonResponse = await response.json();
-      const item = jsonResponse;
-      console.log(jsonResponse);
-      setGames([...item.data]);
+      let orderedGames = [...jsonResponse.api.games.reverse()];
+      // we keep only the first 100 games
+      setGames(orderedGames.slice(0, 100));
+      setLoading(false);
     }
     catch(err) { console.log(err);}
-
-    //return () => { /*ignore = true;*/ }
   }, []);
-  // });
+
+
+  // Get current games
+  const indexOfLastGame = currentPage * gamesPerPage;
+  const indexOfFirstGame = indexOfLastGame - gamesPerPage;
+  const currentGame = games.slice(indexOfFirstGame, indexOfLastGame);
+
+  // Change page
+  const paginate = pageNumber => setCurrentPage(pageNumber);
 
   return (
-    <div>
-      <p>working?</p>
-      {games ? <MatchesBoard matchesData={games} testProp="testProp" /> : <p>LOADING MATCHES</p>}
-    </div>
+    <Router>
+        <Header />
+        <Switch>
+          {/* Have to pass teamId so that <TeamDetails/> can render logo */}
+          <Route path="/teamDetails/:teamId" render={ ({ match, location }) => <TeamDetails match={match} location={location} /> } ></Route>
+
+          <Route path="/404">
+            <h1>404 Page Not Found!</h1>
+          </Route>
+
+          <Route exact path="/">
+            <Pagination
+              gamesPerPage={gamesPerPage}
+              totalGames={games.length}
+              paginate={paginate}
+            />
+            {/* Checking that games are loaded before rendering <MatchesBoard/> */}
+            {games ? <MatchesBoard matchesData={currentGame} loading={loading} /> : <p>LOADING MATCHES</p>}
+          </Route>
+        </Switch>
+    </Router>
   );
 }
-// {games.map(game => <li key={game.id}>{game.date}</li>) }
-SearchResults.propTypes = {
-  name: PropTypes.array
-}
-
-
-
-
-
-
-
-
-
-
 
 
 // =============================================================================
 // 
 // =============================================================================
 const rootElement = document.getElementById("root");
-ReactDOM.render(<SearchResults />, rootElement);
+ReactDOM.render(<App />, rootElement);
 
-// export default SearchResults
+
+

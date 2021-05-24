@@ -1,0 +1,72 @@
+{
+    "api": {
+        "status": 200,
+        "message": "GET statistics/games/gameId/8133",
+        "results": 2,
+        "filters": [
+            "gameId"
+        ],
+        "statistics": [
+            {
+                "gameId": "8133",
+                "teamId": "26",
+                "fastBreakPoints": "16",
+                "pointsInPaint": "40",
+                "biggestLead": "15",
+                "secondChancePoints": "16",
+                "pointsOffTurnovers": "24",
+                "longestRun": "9",
+                "points": "116",
+                "fgm": "42",
+                "fga": "92",
+                "fgp": "45.7",
+                "ftm": "20",
+                "fta": "29",
+                "ftp": "69.0",
+                "tpm": "12",
+                "tpa": "42",
+                "tpp": "28.6",
+                "offReb": "10",
+                "defReb": "39",
+                "totReb": "49",
+                "assists": "26",
+                "pFouls": "28",
+                "steals": "10",
+                "turnovers": "15",
+                "blocks": "8",
+                "plusMinus": "4",
+                "min": "240:00"
+            },
+            {
+                "gameId": "8133",
+                "teamId": "1",
+                "fastBreakPoints": "14",
+                "pointsInPaint": "32",
+                "biggestLead": "4",
+                "secondChancePoints": "25",
+                "pointsOffTurnovers": "22",
+                "longestRun": "8",
+                "points": "112",
+                "fgm": "34",
+                "fga": "92",
+                "fgp": "37.0",
+                "ftm": "34",
+                "fta": "41",
+                "ftp": "82.9",
+                "tpm": "10",
+                "tpa": "32",
+                "tpp": "31.2",
+                "offReb": "19",
+                "defReb": "42",
+                "totReb": "61",
+                "assists": "20",
+                "pFouls": "25",
+                "steals": "8",
+                "turnovers": "23",
+                "blocks": "4",
+                "plusMinus": "-4",
+                "min": "240:00"
+            }
+        ]
+    }
+}
