@@ -1,4 +1,6 @@
-**This is a small NBA App made to practice React functional components & Hooks**
+# 🏀
+
+**This is a small NBA App 🏀 made to practice React functional components & Hooks**
 
 **All fetching is done with dummy .json files from [the NBA-API](https://rapidapi.com/api-sports/api/api-nba)**
 
