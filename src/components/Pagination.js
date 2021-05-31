@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Pagination = ({ gamesPerPage, totalGames, paginate }) => {
-
   // Calculating how many page-buttons should we render
   const pageNumbers = [];
 
@@ -13,9 +12,9 @@ const Pagination = ({ gamesPerPage, totalGames, paginate }) => {
   return (
     <nav>
       <ul className='pagination'>
-        {pageNumbers.map(number => (
+        {pageNumbers.map((number) => (
           <li key={number} className='page_item' onClick={() => paginate(number)}>
-                {number}
+            {number}
           </li>
         ))}
       </ul>
@@ -24,12 +23,12 @@ const Pagination = ({ gamesPerPage, totalGames, paginate }) => {
 };
 
 // =============================================================================
-// 
+//
 // =============================================================================
 Pagination.propTypes = {
-    gamesPerPage: PropTypes.number,
-    totalGames: PropTypes.number,
-    paginate: PropTypes.func,
-}
+  gamesPerPage: PropTypes.number,
+  totalGames: PropTypes.number,
+  paginate: PropTypes.func,
+};
 
 export default Pagination;

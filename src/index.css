@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -12,8 +11,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 /* ========================================================================== */
@@ -53,8 +51,7 @@ code {
   border-radius: 25px;
 
   background-color: white;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2),
-    inset 0 -3em 3em rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2), inset 0 -3em 3em rgba(0, 0, 0, 0.1);
 }
 
 .horizontal_items {
@@ -68,6 +65,28 @@ code {
   border: solid 1px rgb(190, 190, 190);
   min-height: 200px;
   align-self: center;
+}
+
+.back_to_top {
+  position: fixed;
+  left: 85vw;
+  top: 85vh;
+  z-index: 100;
+  width: 120px;
+
+  padding: 5px 0;
+  border: solid 2px black;
+  border-radius: 25px;
+
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2), inset 0 -3em 3em rgba(0, 0, 0, 0.1);
+}
+
+.back_to_top:hover {
+  width: 130px;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(52, 89, 211);
 }
 
 /* ========================================================================== */
@@ -86,7 +105,7 @@ code {
 
 .page_header h1 {
   color: white;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 50px;
 }
 
@@ -101,6 +120,7 @@ code {
   display: flex;
   justify-content: space-evenly;
   height: 70px;
+  margin: 20px 200px;
 }
 .page_item {
   display: flex;
@@ -115,8 +135,7 @@ code {
   border-radius: 20px;
 
   background-color: white;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2),
-    inset 0 -0.6em 0.6em rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2), inset 0 -0.6em 0.6em rgba(0, 0, 0, 0.1);
   list-style: none;
 }
 
@@ -124,6 +143,11 @@ code {
   cursor: pointer;
   width: 60px;
   height: 60px;
+  color: rgb(52, 89, 211);
+  font-weight: bold;
+}
+
+.active_page {
   color: rgb(52, 89, 211);
   font-weight: bold;
 }
@@ -154,8 +178,7 @@ code {
   border-radius: 25px;
 
   background-color: white;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2),
-    inset 0 -3em 3em rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2), inset 0 -3em 3em rgba(0, 0, 0, 0.1);
 }
 
 .match_date {
