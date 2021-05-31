@@ -1,3 +1,11 @@
+# 🏀
+
+**This is a small NBA App 🏀 made to practice React functional components & Hooks**
+
+**All fetching is done with dummy .json files from [the NBA-API](https://rapidapi.com/api-sports/api/api-nba)**
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
