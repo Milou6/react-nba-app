@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
+/* eslint-disable no-unused-vars */
 import Header from './components/Header.js';
 import Pagination from './components/Pagination';
 import MatchesBoard from './components/MatchesBoard.js';
@@ -10,21 +10,28 @@ import './index.css';
 
 function App() {
   const [games, setGames] = useState([]);
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
   // both States below used for Pagination
   const [currentPage, setCurrentPage] = useState(1);
   const [gamesPerPage] = useState(10);
 
   useEffect(async () => {
     try {
-      const response = await fetch('./testData/TESTING_NBA_games2.json');
-      setLoading(true);
+      // const response = await fetch('./testData/TESTING_NBA_games2.json');
+      const response = await fetch(`../.netlify/functions/fetchNbaData`);
+      // setLoading(true);
+
+      // If request failed, we do an early return!
+      if (response.status !== 200) {
+        alert("Couldn't fetch matches data from the NBA API.");
+        throw new Error(response.statusText);
+      }
 
       const jsonResponse = await response.json();
       let orderedGames = [...jsonResponse.api.games.reverse()];
       // we keep only the first 100 games
       setGames(orderedGames.slice(0, 100));
-      setLoading(false);
+      // setLoading(false);
 
       // on load, set first page as active
       paginate(1);
@@ -62,11 +69,7 @@ function App() {
         <Route exact path='/'>
           <Pagination gamesPerPage={gamesPerPage} totalGames={games.length} paginate={paginate} />
           {/* Checking that games are loaded before rendering <MatchesBoard/> */}
-          {games ? (
-            <MatchesBoard matchesData={currentGames} loading={loading} />
-          ) : (
-            <p>LOADING MATCHES</p>
-          )}
+          {games ? <MatchesBoard matchesData={currentGames} /> : <p>LOADING MATCHES</p>}
         </Route>
 
         <Route path='*'>

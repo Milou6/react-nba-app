@@ -9,12 +9,12 @@ function scrollToTop() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-function MatchesBoard(props) {
+function MatchesBoard({ matchesData }) {
   return (
     <div className='matches_board'>
       {/* Looping through each match from the fetch performed in index.js */}
-      {props.matchesData.map((match) => (
-        <SingleMatch key={match.gameId} matchData={match} detailsShowing={false} />
+      {matchesData.map((match) => (
+        <SingleMatch key={match.gameId} matchData={match} />
       ))}
       <button className='back_to_top' onClick={scrollToTop} id='myBtn' title='Go to top'>
         Back to Top ▲
@@ -28,6 +28,7 @@ function MatchesBoard(props) {
 // =============================================================================
 MatchesBoard.propTypes = {
   matchesData: PropTypes.array,
+  loading: PropTypes.bool,
 };
 
 export default MatchesBoard;

@@ -26,3 +26,6 @@ yarn-error.log*
 /src/snippets.js
 /src/backup_index.js
 /not_needed
+
+# Local Netlify folder
+.netlify

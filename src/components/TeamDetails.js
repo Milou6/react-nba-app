@@ -7,7 +7,7 @@ import teamLogos from './teamLogos.js';
  * This component is quite complex, could eventually be split into 2 sub-components.
  */
 
-function TeamDetails(props) {
+function TeamDetails({ match, location }) {
   // We need 2 different fetch() here to get all team details
   const [teamStandings, setTeamStandings] = useState();
   const [teamPlayers, setTeamPlayers] = useState();
@@ -41,8 +41,8 @@ function TeamDetails(props) {
 
   return (
     <div className='card team_details'>
-      <h1>{teamLogos.get(props.match.params.teamId)}</h1>
-      <h1>{props.location.state.teamName}</h1>
+      <h1>{teamLogos.get(match.params.teamId)}</h1>
+      <h1>{location.state.teamName}</h1>
 
       {/* Team Standings */}
       <h2>Standings:</h2>
