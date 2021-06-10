@@ -14,7 +14,10 @@ function TeamDetails({ match, location }) {
 
   useEffect(async () => {
     try {
-      const response = await fetch('../testData/TESTING_team_standings.json');
+      // const response = await fetch('../testData/TESTING_team_standings.json');
+      const response = await fetch(
+        `../.netlify/functions/fetchNbaData?path=standings/standard/2020/teamId/${match.params.teamId}`
+      );
 
       const jsonResponse = await response.json();
       let arrayResponse = [...jsonResponse.api.standings];
@@ -27,7 +30,10 @@ function TeamDetails({ match, location }) {
     }
 
     try {
-      const response = await fetch('../testData/TESTING_team_players.json');
+      // const response = await fetch('../testData/TESTING_team_players.json');
+      const response = await fetch(
+        `../.netlify/functions/fetchNbaData?path=players/teamId/${match.params.teamId}`
+      );
 
       const jsonResponse = await response.json();
       let arrayResponse = [...jsonResponse.api.players];

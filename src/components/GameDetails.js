@@ -10,15 +10,18 @@ function GameDetails(props) {
 
   useEffect(async (ID) => {
     try {
-      const response = await fetch('./testData/TESTING_game_details.json');
+      // const response = await fetch('./testData/TESTING_game_details.json');
+      const response = await fetch(
+        `../../.netlify/functions/fetchNbaData?path=gameDetails/${props.ID}`
+      );
 
       // console.log(response);
       const jsonResponse = await response.json();
       // console.log(jsonResponse);
 
       // IF USING TESTING DATA, PLEASE USE THE SECOND arrayResponse BELOW
-      // let arrayResponse = [...jsonResponse.api.game];
-      let arrayResponse = [...jsonResponse.api.games];
+      let arrayResponse = [...jsonResponse.api.game];
+      // let arrayResponse = [...jsonResponse.api.games];
 
       // Gotta remember to get first item of array, otherwise "Loading checks below don't work!"
       setGameDetails(arrayResponse[0]);
@@ -29,7 +32,10 @@ function GameDetails(props) {
 
     try {
       // Fetching game statistics
-      const response2 = await fetch('./testData/TESTING_game_stats.json');
+      // const response2 = await fetch('./testData/TESTING_game_stats.json');
+      const response2 = await fetch(
+        `../../.netlify/functions/fetchNbaData?path=statistics/games/gameId/${props.ID}`
+      );
 
       const jsonResponse2 = await response2.json();
       let arrayResponse2 = [...jsonResponse2.api.statistics];

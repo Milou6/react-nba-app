@@ -18,7 +18,7 @@ function App() {
   useEffect(async () => {
     try {
       // const response = await fetch('./testData/TESTING_NBA_games2.json');
-      const response = await fetch(`../.netlify/functions/fetchNbaData`);
+      const response = await fetch(`../.netlify/functions/fetchNbaData?path=games/seasonYear/2020`);
       // setLoading(true);
 
       // If request failed, we do an early return!

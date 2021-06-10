@@ -28,4 +28,4 @@ yarn-error.log*
 /not_needed
 
 # Local Netlify folder
-.netlify
+# .netlify
