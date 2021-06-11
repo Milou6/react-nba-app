@@ -1,8 +1,10 @@
 # 🏀
 
-**This is a small NBA App 🏀 made to practice React functional components & Hooks**
+**This is a small NBA App 🏀 made to practice React functional components & Hooks.**
 
-**All fetching is done with dummy .json files from [the NBA-API](https://rapidapi.com/api-sports/api/api-nba)**
+**Data-fetching is done by Netlify functions to the [the NBA-API](https://rapidapi.com/api-sports/api/api-nba). This allows to fetch data without leaking API keys.**
+
+<img src="./public/Animation.gif" alt="usage example" width="800"/>
 
 
 
