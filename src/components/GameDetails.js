@@ -53,7 +53,7 @@ function GameDetails(props) {
   `;
 
   return (
-    <>
+    <div>
       {gameDetails ? (
         <div className='game_details'>
           <div>City : {gameDetails.city ? gameDetails.city : <BeatLoader color='navy' />}</div>
@@ -131,7 +131,7 @@ function GameDetails(props) {
       <div className='btn' onClick={props.backFromDetails}>
         BACK
       </div>
-    </>
+    </div>
   );
 }
 
